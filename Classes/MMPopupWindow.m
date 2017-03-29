@@ -10,6 +10,7 @@
 #import "MMPopupCategory.h"
 #import "MMPopupDefine.h"
 #import "MMPopupView.h"
+#import "MMRootViewController.h"
 
 @interface MMPopupWindow()
 <
@@ -43,7 +44,7 @@ UIGestureRecognizerDelegate
     
     dispatch_once(&onceToken, ^{
         window = [[MMPopupWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-        window.rootViewController = [UIViewController new];
+        window.rootViewController = [[MMRootViewController alloc] init];
     });
     
     return window;

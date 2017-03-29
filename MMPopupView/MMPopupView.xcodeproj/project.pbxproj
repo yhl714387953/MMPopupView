@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047C28691E8B91C900D37084 /* MMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047C285B1E8B91C900D37084 /* MMAlertView.m */; };
+		047C286A1E8B91C900D37084 /* MMPopupCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 047C285D1E8B91C900D37084 /* MMPopupCategory.m */; };
+		047C286B1E8B91C900D37084 /* MMPopupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 047C28601E8B91C900D37084 /* MMPopupItem.m */; };
+		047C286C1E8B91C900D37084 /* MMPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047C28621E8B91C900D37084 /* MMPopupView.m */; };
+		047C286D1E8B91C900D37084 /* MMPopupWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 047C28641E8B91C900D37084 /* MMPopupWindow.m */; };
+		047C286E1E8B91C900D37084 /* MMRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047C28661E8B91C900D37084 /* MMRootViewController.m */; };
+		047C286F1E8B91C900D37084 /* MMSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047C28681E8B91C900D37084 /* MMSheetView.m */; };
 		C3A6D7C7352C468FC6AFBD15 /* libPods-MMPopupView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EBFF7F54A0C418E7302440 /* libPods-MMPopupView.a */; };
 		ED1E99341B9BD5C20093760A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1E99331B9BD5C20093760A /* main.m */; };
 		ED1E99371B9BD5C20093760A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1E99361B9BD5C20093760A /* AppDelegate.m */; };
@@ -14,17 +21,26 @@
 		ED1E993D1B9BD5C20093760A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1E993B1B9BD5C20093760A /* Main.storyboard */; };
 		ED1E993F1B9BD5C20093760A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED1E993E1B9BD5C20093760A /* Assets.xcassets */; };
 		ED1E99421B9BD5C20093760A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1E99401B9BD5C20093760A /* LaunchScreen.storyboard */; };
-		ED1E994C1B9BD8520093760A /* MMPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1E994B1B9BD8520093760A /* MMPopupView.m */; };
-		ED1E994F1B9BDAB80093760A /* MMPopupWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1E994E1B9BDAB80093760A /* MMPopupWindow.m */; };
-		ED1E99521B9BDAFA0093760A /* MMPopupitem.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1E99511B9BDAFA0093760A /* MMPopupitem.m */; };
-		ED1E99551B9BDE4B0093760A /* MMPopupCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1E99541B9BDE4B0093760A /* MMPopupCategory.m */; };
-		ED1E99591B9BEE7D0093760A /* MMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1E99581B9BEE7D0093760A /* MMAlertView.m */; };
-		ED1E995C1B9BEE8F0093760A /* MMSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1E995B1B9BEE8F0093760A /* MMSheetView.m */; };
 		ED1E995F1B9C22F50093760A /* MMPinView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1E995E1B9C22F50093760A /* MMPinView.m */; };
 		EDB365121B9D3323003A0B05 /* MMDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB365111B9D3323003A0B05 /* MMDateView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		047C285A1E8B91C900D37084 /* MMAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMAlertView.h; path = ../Classes/MMAlertView.h; sourceTree = "<group>"; };
+		047C285B1E8B91C900D37084 /* MMAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMAlertView.m; path = ../Classes/MMAlertView.m; sourceTree = "<group>"; };
+		047C285C1E8B91C900D37084 /* MMPopupCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMPopupCategory.h; path = ../Classes/MMPopupCategory.h; sourceTree = "<group>"; };
+		047C285D1E8B91C900D37084 /* MMPopupCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMPopupCategory.m; path = ../Classes/MMPopupCategory.m; sourceTree = "<group>"; };
+		047C285E1E8B91C900D37084 /* MMPopupDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMPopupDefine.h; path = ../Classes/MMPopupDefine.h; sourceTree = "<group>"; };
+		047C285F1E8B91C900D37084 /* MMPopupItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMPopupItem.h; path = ../Classes/MMPopupItem.h; sourceTree = "<group>"; };
+		047C28601E8B91C900D37084 /* MMPopupItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMPopupItem.m; path = ../Classes/MMPopupItem.m; sourceTree = "<group>"; };
+		047C28611E8B91C900D37084 /* MMPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMPopupView.h; path = ../Classes/MMPopupView.h; sourceTree = "<group>"; };
+		047C28621E8B91C900D37084 /* MMPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMPopupView.m; path = ../Classes/MMPopupView.m; sourceTree = "<group>"; };
+		047C28631E8B91C900D37084 /* MMPopupWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMPopupWindow.h; path = ../Classes/MMPopupWindow.h; sourceTree = "<group>"; };
+		047C28641E8B91C900D37084 /* MMPopupWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMPopupWindow.m; path = ../Classes/MMPopupWindow.m; sourceTree = "<group>"; };
+		047C28651E8B91C900D37084 /* MMRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMRootViewController.h; path = ../Classes/MMRootViewController.h; sourceTree = "<group>"; };
+		047C28661E8B91C900D37084 /* MMRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMRootViewController.m; path = ../Classes/MMRootViewController.m; sourceTree = "<group>"; };
+		047C28671E8B91C900D37084 /* MMSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMSheetView.h; path = ../Classes/MMSheetView.h; sourceTree = "<group>"; };
+		047C28681E8B91C900D37084 /* MMSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMSheetView.m; path = ../Classes/MMSheetView.m; sourceTree = "<group>"; };
 		41200EBF1F3357F293167C6D /* Pods-MMPopupView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMPopupView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMPopupView/Pods-MMPopupView.debug.xcconfig"; sourceTree = "<group>"; };
 		A4EBFF7F54A0C418E7302440 /* libPods-MMPopupView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MMPopupView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED1E992F1B9BD5C20093760A /* MMPopupView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMPopupView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,19 +53,6 @@
 		ED1E993E1B9BD5C20093760A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED1E99411B9BD5C20093760A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED1E99431B9BD5C20093760A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED1E994A1B9BD8520093760A /* MMPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMPopupView.h; path = ../Classes/MMPopupView.h; sourceTree = "<group>"; };
-		ED1E994B1B9BD8520093760A /* MMPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMPopupView.m; path = ../Classes/MMPopupView.m; sourceTree = "<group>"; };
-		ED1E994D1B9BDAB80093760A /* MMPopupWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMPopupWindow.h; path = ../Classes/MMPopupWindow.h; sourceTree = "<group>"; };
-		ED1E994E1B9BDAB80093760A /* MMPopupWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMPopupWindow.m; path = ../Classes/MMPopupWindow.m; sourceTree = "<group>"; };
-		ED1E99501B9BDAFA0093760A /* MMPopupItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMPopupItem.h; path = ../Classes/MMPopupItem.h; sourceTree = "<group>"; };
-		ED1E99511B9BDAFA0093760A /* MMPopupitem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMPopupitem.m; path = ../Classes/MMPopupitem.m; sourceTree = "<group>"; };
-		ED1E99531B9BDE4B0093760A /* MMPopupCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMPopupCategory.h; path = ../Classes/MMPopupCategory.h; sourceTree = "<group>"; };
-		ED1E99541B9BDE4B0093760A /* MMPopupCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMPopupCategory.m; path = ../Classes/MMPopupCategory.m; sourceTree = "<group>"; };
-		ED1E99561B9BE7BD0093760A /* MMPopupDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MMPopupDefine.h; path = ../Classes/MMPopupDefine.h; sourceTree = "<group>"; };
-		ED1E99571B9BEE7D0093760A /* MMAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMAlertView.h; path = ../Classes/MMAlertView.h; sourceTree = "<group>"; };
-		ED1E99581B9BEE7D0093760A /* MMAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMAlertView.m; path = ../Classes/MMAlertView.m; sourceTree = "<group>"; };
-		ED1E995A1B9BEE8F0093760A /* MMSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMSheetView.h; path = ../Classes/MMSheetView.h; sourceTree = "<group>"; };
-		ED1E995B1B9BEE8F0093760A /* MMSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMSheetView.m; path = ../Classes/MMSheetView.m; sourceTree = "<group>"; };
 		ED1E995D1B9C22F50093760A /* MMPinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMPinView.h; path = ../MMPinView.h; sourceTree = "<group>"; };
 		ED1E995E1B9C22F50093760A /* MMPinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMPinView.m; path = ../MMPinView.m; sourceTree = "<group>"; };
 		EDB365101B9D3323003A0B05 /* MMDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDateView.h; sourceTree = SOURCE_ROOT; };
@@ -136,19 +139,21 @@
 		ED1E99491B9BD8340093760A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				ED1E994A1B9BD8520093760A /* MMPopupView.h */,
-				ED1E994B1B9BD8520093760A /* MMPopupView.m */,
-				ED1E994D1B9BDAB80093760A /* MMPopupWindow.h */,
-				ED1E994E1B9BDAB80093760A /* MMPopupWindow.m */,
-				ED1E99501B9BDAFA0093760A /* MMPopupItem.h */,
-				ED1E99511B9BDAFA0093760A /* MMPopupitem.m */,
-				ED1E99531B9BDE4B0093760A /* MMPopupCategory.h */,
-				ED1E99541B9BDE4B0093760A /* MMPopupCategory.m */,
-				ED1E99561B9BE7BD0093760A /* MMPopupDefine.h */,
-				ED1E99571B9BEE7D0093760A /* MMAlertView.h */,
-				ED1E99581B9BEE7D0093760A /* MMAlertView.m */,
-				ED1E995A1B9BEE8F0093760A /* MMSheetView.h */,
-				ED1E995B1B9BEE8F0093760A /* MMSheetView.m */,
+				047C285A1E8B91C900D37084 /* MMAlertView.h */,
+				047C285B1E8B91C900D37084 /* MMAlertView.m */,
+				047C285C1E8B91C900D37084 /* MMPopupCategory.h */,
+				047C285D1E8B91C900D37084 /* MMPopupCategory.m */,
+				047C285E1E8B91C900D37084 /* MMPopupDefine.h */,
+				047C285F1E8B91C900D37084 /* MMPopupItem.h */,
+				047C28601E8B91C900D37084 /* MMPopupItem.m */,
+				047C28611E8B91C900D37084 /* MMPopupView.h */,
+				047C28621E8B91C900D37084 /* MMPopupView.m */,
+				047C28631E8B91C900D37084 /* MMPopupWindow.h */,
+				047C28641E8B91C900D37084 /* MMPopupWindow.m */,
+				047C28651E8B91C900D37084 /* MMRootViewController.h */,
+				047C28661E8B91C900D37084 /* MMRootViewController.m */,
+				047C28671E8B91C900D37084 /* MMSheetView.h */,
+				047C28681E8B91C900D37084 /* MMSheetView.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -258,16 +263,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED1E99551B9BDE4B0093760A /* MMPopupCategory.m in Sources */,
 				ED1E993A1B9BD5C20093760A /* ViewController.m in Sources */,
+				047C28691E8B91C900D37084 /* MMAlertView.m in Sources */,
+				047C286D1E8B91C900D37084 /* MMPopupWindow.m in Sources */,
 				ED1E995F1B9C22F50093760A /* MMPinView.m in Sources */,
-				ED1E994C1B9BD8520093760A /* MMPopupView.m in Sources */,
-				ED1E99521B9BDAFA0093760A /* MMPopupitem.m in Sources */,
-				ED1E994F1B9BDAB80093760A /* MMPopupWindow.m in Sources */,
-				ED1E99591B9BEE7D0093760A /* MMAlertView.m in Sources */,
+				047C286A1E8B91C900D37084 /* MMPopupCategory.m in Sources */,
+				047C286C1E8B91C900D37084 /* MMPopupView.m in Sources */,
 				EDB365121B9D3323003A0B05 /* MMDateView.m in Sources */,
+				047C286B1E8B91C900D37084 /* MMPopupItem.m in Sources */,
 				ED1E99371B9BD5C20093760A /* AppDelegate.m in Sources */,
-				ED1E995C1B9BEE8F0093760A /* MMSheetView.m in Sources */,
+				047C286E1E8B91C900D37084 /* MMRootViewController.m in Sources */,
+				047C286F1E8B91C900D37084 /* MMSheetView.m in Sources */,
 				ED1E99341B9BD5C20093760A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
